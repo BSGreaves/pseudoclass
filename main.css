@@ -1,0 +1,14 @@
+li.block {
+	display: inline;
+	text-decoration: none;
+}
+
+span.inline {
+	display: block;
+	border: 1px solid black;
+	margin: 25px;
+}
+
+article.n-child section:nth-child(2n + 3) {
+	border: 1px black solid;
+}
